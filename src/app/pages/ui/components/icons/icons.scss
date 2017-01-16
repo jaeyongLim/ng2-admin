@@ -39,58 +39,6 @@ a.see-all-icons {
   height: 308px;
 }
 
-.kameleon-row {
-  display: inline-block;
-  min-width: 102px;
-  width: 20%;
-  .kameleon-icon {
-    padding: 0 10px;
-    img {
-      width: 81px;
-    }
-  }
-}
-
-@media (max-width: 750px) {
-  .kameleon-row {
-    width: 25%;
-  }
-}
-
-@media (max-width: 550px) {
-  .kameleon-row {
-    width: 33%;
-  }
-}
-
-@media (max-width: 430px) {
-  .kameleon-row {
-    width: 50%;
-  }
-}
-
-.kameleon-icon-tabs {
-  max-width: 84px;
-  img {
-    width: 100%;
-    min-width: 81px;
-    min-height: 81px;
-  }
-}
-
-.kameleon-icon {
-  text-align: center;
-  margin: 0 auto;
-  img {
-    width: 100%;
-  }
-  span {
-    display: block;
-    text-align: center;
-    white-space: nowrap;
-  }
-}
-
 @mixin setImgBg($color) {
   img {
     background: $color;

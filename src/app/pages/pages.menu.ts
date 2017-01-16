@@ -124,14 +124,6 @@ export const PAGES_MENU = [
               }
             }
           },
-          {
-            path: 'grid',
-            data: {
-              menu: {
-                title: 'Grid',
-              }
-            }
-          },
         ]
       },
       {
