@@ -7,10 +7,6 @@ import { Dashboard } from './dashboard.component';
 import { routing }       from './dashboard.routing';
 
 import { PopularApp } from './popularApp';
-import { PieChart } from './pieChart';
-import { TrafficChart } from './trafficChart';
-import { UsersMap } from './usersMap';
-import { LineChart } from './lineChart';
 import { Feed } from './feed';
 import { Todo } from './todo';
 import { Calendar } from './calendar';
@@ -31,10 +27,6 @@ import { UsersMapService } from './usersMap/usersMap.service';
   ],
   declarations: [
     PopularApp,
-    PieChart,
-    TrafficChart,
-    UsersMap,
-    LineChart,
     Feed,
     Todo,
     Calendar,
@@ -43,11 +35,7 @@ import { UsersMapService } from './usersMap/usersMap.service';
   providers: [
     CalendarService,
     FeedService,
-    LineChartService,
-    PieChartService,
-    TodoService,
-    TrafficChartService,
-    UsersMapService
+    TodoService
   ]
 })
 export default class DashboardModule {}
